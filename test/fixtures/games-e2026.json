@@ -1,0 +1,467 @@
+{
+  "data": [
+    {
+      "id": "00000000-0000-4000-8000-000000000001",
+      "identifier": "E2026_1",
+      "gameCode": 1,
+      "season": {
+        "name": "EuroLeague 2026-27",
+        "code": "E2026",
+        "alias": "2026-27",
+        "competitionCode": "E",
+        "year": 2026,
+        "startDate": "2026-07-01T00:00:00"
+      },
+      "phaseType": {
+        "code": "RS",
+        "alias": "REGULAR SEASON",
+        "name": "Regular Season",
+        "isGroupPhase": true
+      },
+      "round": 1,
+      "roundAlias": "Round 1",
+      "roundName": "Round 1",
+      "played": true,
+      "date": "2026-10-02T19:00:00",
+      "confirmedDate": true,
+      "confirmedHour": true,
+      "localTimeZone": 2,
+      "localDate": "2026-10-02T19:00:00",
+      "utcDate": "2026-10-02T17:00:00Z",
+      "local": {
+        "club": {
+          "code": "PAN",
+          "name": "Panathinaikos AKTOR Athens",
+          "abbreviatedName": "Panathinaikos",
+          "editorialName": "Panathinaikos",
+          "tvCode": "PAO",
+          "isVirtual": false,
+          "images": {
+            "crest": "https://media-cdn.incrowdsports.com/e3dff28a-9ec6-4faf-9d96-ecbc68f75780.png"
+          }
+        },
+        "score": 89,
+        "standingsScore": 89
+      },
+      "road": {
+        "club": {
+          "code": "MAD",
+          "name": "Real Madrid",
+          "abbreviatedName": "Real Madrid",
+          "editorialName": "Real Madrid",
+          "tvCode": "RMB",
+          "isVirtual": false,
+          "images": {
+            "crest": "https://media-cdn.incrowdsports.com/601c92bf-90e4-4b43-9023-bd6946e34143.png"
+          }
+        },
+        "score": 80,
+        "standingsScore": 80
+      },
+      "venue": {
+        "name": "OAKA ALTION",
+        "code": "OAK",
+        "capacity": 18300
+      },
+      "isNeutralVenue": false,
+      "gameStatus": "Confirmed"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000002",
+      "identifier": "E2026_2",
+      "gameCode": 2,
+      "season": {
+        "name": "EuroLeague 2026-27",
+        "code": "E2026",
+        "alias": "2026-27",
+        "competitionCode": "E",
+        "year": 2026,
+        "startDate": "2026-07-01T00:00:00"
+      },
+      "phaseType": {
+        "code": "RS",
+        "alias": "REGULAR SEASON",
+        "name": "Regular Season",
+        "isGroupPhase": true
+      },
+      "round": 1,
+      "roundAlias": "Round 1",
+      "roundName": "Round 1",
+      "played": true,
+      "date": "2026-10-02T20:30:00",
+      "confirmedDate": true,
+      "confirmedHour": true,
+      "localTimeZone": 2,
+      "localDate": "2026-10-02T20:30:00",
+      "utcDate": "2026-10-02T18:30:00Z",
+      "local": {
+        "club": {
+          "code": "ASV",
+          "name": "LDLC ASVEL Villeurbanne",
+          "abbreviatedName": "ASVEL",
+          "editorialName": "ASVEL",
+          "tvCode": "ASV",
+          "isVirtual": false,
+          "images": {
+            "crest": "https://media-cdn.incrowdsports.com/a0ba2a0c-4c51-4c5d-b5b3-a2b8b1ba5d9c.png"
+          }
+        },
+        "score": 74,
+        "standingsScore": 74
+      },
+      "road": {
+        "club": {
+          "code": "OLY",
+          "name": "Olympiacos Piraeus",
+          "abbreviatedName": "Olympiacos",
+          "editorialName": "Olympiacos",
+          "tvCode": "OLY",
+          "isVirtual": false,
+          "images": {
+            "crest": "https://media-cdn.incrowdsports.com/789423ac-3cdf-4b89-b11c-b458aa5f59a6.png"
+          }
+        },
+        "score": 79,
+        "standingsScore": 79
+      },
+      "venue": {
+        "name": "ASTROBALLE",
+        "code": "OAK",
+        "capacity": 18300
+      },
+      "isNeutralVenue": false,
+      "gameStatus": "Confirmed"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000011",
+      "identifier": "E2026_11",
+      "gameCode": 11,
+      "season": {
+        "name": "EuroLeague 2026-27",
+        "code": "E2026",
+        "alias": "2026-27",
+        "competitionCode": "E",
+        "year": 2026,
+        "startDate": "2026-07-01T00:00:00"
+      },
+      "phaseType": {
+        "code": "RS",
+        "alias": "REGULAR SEASON",
+        "name": "Regular Season",
+        "isGroupPhase": true
+      },
+      "round": 2,
+      "roundAlias": "Round 2",
+      "roundName": "Round 2",
+      "played": true,
+      "date": "2026-10-09T20:30:00",
+      "confirmedDate": true,
+      "confirmedHour": true,
+      "localTimeZone": 2,
+      "localDate": "2026-10-09T20:30:00",
+      "utcDate": "2026-10-09T18:30:00Z",
+      "local": {
+        "club": {
+          "code": "ASV",
+          "name": "LDLC ASVEL Villeurbanne",
+          "abbreviatedName": "ASVEL",
+          "editorialName": "ASVEL",
+          "tvCode": "ASV",
+          "isVirtual": false,
+          "images": {
+            "crest": "https://media-cdn.incrowdsports.com/a0ba2a0c-4c51-4c5d-b5b3-a2b8b1ba5d9c.png"
+          }
+        },
+        "score": 81,
+        "standingsScore": 81
+      },
+      "road": {
+        "club": {
+          "code": "PAN",
+          "name": "Panathinaikos AKTOR Athens",
+          "abbreviatedName": "Panathinaikos",
+          "editorialName": "Panathinaikos",
+          "tvCode": "PAO",
+          "isVirtual": false,
+          "images": {
+            "crest": "https://media-cdn.incrowdsports.com/e3dff28a-9ec6-4faf-9d96-ecbc68f75780.png"
+          }
+        },
+        "score": 77,
+        "standingsScore": 77
+      },
+      "venue": {
+        "name": "ASTROBALLE",
+        "code": "OAK",
+        "capacity": 18300
+      },
+      "isNeutralVenue": false,
+      "gameStatus": "Confirmed"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000012",
+      "identifier": "E2026_12",
+      "gameCode": 12,
+      "season": {
+        "name": "EuroLeague 2026-27",
+        "code": "E2026",
+        "alias": "2026-27",
+        "competitionCode": "E",
+        "year": 2026,
+        "startDate": "2026-07-01T00:00:00"
+      },
+      "phaseType": {
+        "code": "RS",
+        "alias": "REGULAR SEASON",
+        "name": "Regular Season",
+        "isGroupPhase": true
+      },
+      "round": 2,
+      "roundAlias": "Round 2",
+      "roundName": "Round 2",
+      "played": true,
+      "date": "2026-10-09T21:00:00",
+      "confirmedDate": true,
+      "confirmedHour": true,
+      "localTimeZone": 2,
+      "localDate": "2026-10-09T21:00:00",
+      "utcDate": "2026-10-09T19:00:00Z",
+      "local": {
+        "club": {
+          "code": "MAD",
+          "name": "Real Madrid",
+          "abbreviatedName": "Real Madrid",
+          "editorialName": "Real Madrid",
+          "tvCode": "RMB",
+          "isVirtual": false,
+          "images": {
+            "crest": "https://media-cdn.incrowdsports.com/601c92bf-90e4-4b43-9023-bd6946e34143.png"
+          }
+        },
+        "score": 90,
+        "standingsScore": 90
+      },
+      "road": {
+        "club": {
+          "code": "OLY",
+          "name": "Olympiacos Piraeus",
+          "abbreviatedName": "Olympiacos",
+          "editorialName": "Olympiacos",
+          "tvCode": "OLY",
+          "isVirtual": false,
+          "images": {
+            "crest": "https://media-cdn.incrowdsports.com/789423ac-3cdf-4b89-b11c-b458aa5f59a6.png"
+          }
+        },
+        "score": 70,
+        "standingsScore": 70
+      },
+      "venue": {
+        "name": "MOVISTAR ARENA",
+        "code": "OAK",
+        "capacity": 18300
+      },
+      "isNeutralVenue": false,
+      "gameStatus": "Confirmed"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000023",
+      "identifier": "E2026_23",
+      "gameCode": 23,
+      "season": {
+        "name": "EuroLeague 2026-27",
+        "code": "E2026",
+        "alias": "2026-27",
+        "competitionCode": "E",
+        "year": 2026,
+        "startDate": "2026-07-01T00:00:00"
+      },
+      "phaseType": {
+        "code": "RS",
+        "alias": "REGULAR SEASON",
+        "name": "Regular Season",
+        "isGroupPhase": true
+      },
+      "round": 3,
+      "roundAlias": "Round 3",
+      "roundName": "Round 3",
+      "played": false,
+      "date": "2026-10-27T19:15:00",
+      "confirmedDate": true,
+      "confirmedHour": true,
+      "localTimeZone": 2,
+      "localDate": "2026-10-27T19:15:00",
+      "utcDate": "2026-10-27T17:15:00Z",
+      "local": {
+        "club": {
+          "code": "PAN",
+          "name": "Panathinaikos AKTOR Athens",
+          "abbreviatedName": "Panathinaikos",
+          "editorialName": "Panathinaikos",
+          "tvCode": "PAO",
+          "isVirtual": false,
+          "images": {
+            "crest": "https://media-cdn.incrowdsports.com/e3dff28a-9ec6-4faf-9d96-ecbc68f75780.png"
+          }
+        },
+        "score": 0,
+        "standingsScore": 0
+      },
+      "road": {
+        "club": {
+          "code": "PAR",
+          "name": "Partizan Mozzart Bet Belgrade",
+          "abbreviatedName": "Partizan",
+          "editorialName": "Partizan",
+          "tvCode": "PAR",
+          "isVirtual": false,
+          "images": {
+            "crest": "https://media-cdn.incrowdsports.com/2b9c6f0a-2c8a-4d0e-8c9f-7d7a4e0b8b8e.png"
+          }
+        },
+        "score": 0,
+        "standingsScore": 0
+      },
+      "venue": {
+        "name": "OAKA ALTION",
+        "code": "OAK",
+        "capacity": 18300
+      },
+      "isNeutralVenue": false,
+      "gameStatus": "Confirmed"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000025",
+      "identifier": "E2026_25",
+      "gameCode": 25,
+      "season": {
+        "name": "EuroLeague 2026-27",
+        "code": "E2026",
+        "alias": "2026-27",
+        "competitionCode": "E",
+        "year": 2026,
+        "startDate": "2026-07-01T00:00:00"
+      },
+      "phaseType": {
+        "code": "RS",
+        "alias": "REGULAR SEASON",
+        "name": "Regular Season",
+        "isGroupPhase": true
+      },
+      "round": 3,
+      "roundAlias": "Round 3",
+      "roundName": "Round 3",
+      "played": false,
+      "date": "2026-10-28T21:45:00",
+      "confirmedDate": true,
+      "confirmedHour": true,
+      "localTimeZone": 2,
+      "localDate": "2026-10-28T21:45:00",
+      "utcDate": "2026-10-28T19:45:00Z",
+      "local": {
+        "club": {
+          "code": "MAD",
+          "name": "Real Madrid",
+          "abbreviatedName": "Real Madrid",
+          "editorialName": "Real Madrid",
+          "tvCode": "RMB",
+          "isVirtual": false,
+          "images": {
+            "crest": "https://media-cdn.incrowdsports.com/601c92bf-90e4-4b43-9023-bd6946e34143.png"
+          }
+        },
+        "score": 0,
+        "standingsScore": 0
+      },
+      "road": {
+        "club": {
+          "code": "ASV",
+          "name": "LDLC ASVEL Villeurbanne",
+          "abbreviatedName": "ASVEL",
+          "editorialName": "ASVEL",
+          "tvCode": "ASV",
+          "isVirtual": false,
+          "images": {
+            "crest": "https://media-cdn.incrowdsports.com/a0ba2a0c-4c51-4c5d-b5b3-a2b8b1ba5d9c.png"
+          }
+        },
+        "score": 0,
+        "standingsScore": 0
+      },
+      "venue": {
+        "name": "MOVISTAR ARENA",
+        "code": "OAK",
+        "capacity": 18300
+      },
+      "isNeutralVenue": false,
+      "gameStatus": "Confirmed"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000034",
+      "identifier": "E2026_34",
+      "gameCode": 34,
+      "season": {
+        "name": "EuroLeague 2026-27",
+        "code": "E2026",
+        "alias": "2026-27",
+        "competitionCode": "E",
+        "year": 2026,
+        "startDate": "2026-07-01T00:00:00"
+      },
+      "phaseType": {
+        "code": "RS",
+        "alias": "REGULAR SEASON",
+        "name": "Regular Season",
+        "isGroupPhase": true
+      },
+      "round": 4,
+      "roundAlias": "Round 4",
+      "roundName": "Round 4",
+      "played": false,
+      "date": "2026-10-30T21:00:00",
+      "confirmedDate": true,
+      "confirmedHour": true,
+      "localTimeZone": 2,
+      "localDate": "2026-10-30T21:00:00",
+      "utcDate": "2026-10-30T19:00:00Z",
+      "local": {
+        "club": {
+          "code": "OLY",
+          "name": "Olympiacos Piraeus",
+          "abbreviatedName": "Olympiacos",
+          "editorialName": "Olympiacos",
+          "tvCode": "OLY",
+          "isVirtual": false,
+          "images": {
+            "crest": "https://media-cdn.incrowdsports.com/789423ac-3cdf-4b89-b11c-b458aa5f59a6.png"
+          }
+        },
+        "score": 0,
+        "standingsScore": 0
+      },
+      "road": {
+        "club": {
+          "code": "PAN",
+          "name": "Panathinaikos AKTOR Athens",
+          "abbreviatedName": "Panathinaikos",
+          "editorialName": "Panathinaikos",
+          "tvCode": "PAO",
+          "isVirtual": false,
+          "images": {
+            "crest": "https://media-cdn.incrowdsports.com/e3dff28a-9ec6-4faf-9d96-ecbc68f75780.png"
+          }
+        },
+        "score": 0,
+        "standingsScore": 0
+      },
+      "venue": {
+        "name": "PEACE AND FRIENDSHIP STADIUM",
+        "code": "OAK",
+        "capacity": 18300
+      },
+      "isNeutralVenue": false,
+      "gameStatus": "Confirmed"
+    }
+  ],
+  "total": 7
+}

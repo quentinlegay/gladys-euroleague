@@ -1,0 +1,70 @@
+{
+  "data": [
+    {
+      "code": "PAN",
+      "name": "Panathinaikos AKTOR Athens",
+      "abbreviatedName": "Panathinaikos",
+      "editorialName": "Panathinaikos",
+      "tvCode": "PAO",
+      "isVirtual": false,
+      "images": {
+        "crest": "https://media-cdn.incrowdsports.com/e3dff28a-9ec6-4faf-9d96-ecbc68f75780.png"
+      },
+      "country": { "code": "GRE", "name": "Greece" },
+      "city": "ATHENS"
+    },
+    {
+      "code": "MAD",
+      "name": "Real Madrid",
+      "abbreviatedName": "Real Madrid",
+      "editorialName": "Real Madrid",
+      "tvCode": "RMB",
+      "isVirtual": false,
+      "images": {
+        "crest": "https://media-cdn.incrowdsports.com/601c92bf-90e4-4b43-9023-bd6946e34143.png"
+      },
+      "country": { "code": "ESP", "name": "Spain" },
+      "city": "MADRID"
+    },
+    {
+      "code": "ASV",
+      "name": "LDLC ASVEL Villeurbanne",
+      "abbreviatedName": "ASVEL",
+      "editorialName": "ASVEL",
+      "tvCode": "ASV",
+      "isVirtual": false,
+      "images": {
+        "crest": "https://media-cdn.incrowdsports.com/a0ba2a0c-4c51-4c5d-b5b3-a2b8b1ba5d9c.png"
+      },
+      "country": { "code": "FRA", "name": "France" },
+      "city": "VILLEURBANNE"
+    },
+    {
+      "code": "PAR",
+      "name": "Partizan Mozzart Bet Belgrade",
+      "abbreviatedName": "Partizan",
+      "editorialName": "Partizan",
+      "tvCode": "PAR",
+      "isVirtual": false,
+      "images": {
+        "crest": "https://media-cdn.incrowdsports.com/2b9c6f0a-2c8a-4d0e-8c9f-7d7a4e0b8b8e.png"
+      },
+      "country": { "code": "SRB", "name": "Serbia" },
+      "city": "BELGRADE"
+    },
+    {
+      "code": "OLY",
+      "name": "Olympiacos Piraeus",
+      "abbreviatedName": "Olympiacos",
+      "editorialName": "Olympiacos",
+      "tvCode": "OLY",
+      "isVirtual": false,
+      "images": {
+        "crest": "https://media-cdn.incrowdsports.com/789423ac-3cdf-4b89-b11c-b458aa5f59a6.png"
+      },
+      "country": { "code": "GRE", "name": "Greece" },
+      "city": "PIRAEUS"
+    }
+  ],
+  "total": 5
+}
