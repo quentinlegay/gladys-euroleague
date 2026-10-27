@@ -6,6 +6,8 @@ All notable changes to this integration are documented here. The format follows
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-10-27
+
 ### Added
 
 - Follow EuroLeague and EuroCup clubs by their code (`PAN, MAD, U:BES`): one device per club with
@@ -17,3 +19,6 @@ All notable changes to this integration are documented here. The format follows
 - Scene action "Get the game of a team", with the score, the result, the record and the next game.
 - Dashboard widgets "Team game" and "My teams", with the club crests.
 - Configuration buttons "Test the teams" and "Find a team".
+
+[Unreleased]: https://github.com/quentinlegay/gladys-euroleague/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/quentinlegay/gladys-euroleague/releases/tag/v1.0.1
