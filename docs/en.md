@@ -76,7 +76,9 @@ Action **Get the game of a team** gives the following actions the state of the g
 ## Dashboard
 
 - **Team game** — one club: live score, clock, tip-off, opponent, last result, next game, record.
-- **My teams** — every followed club with its crest: live games first, then the next tip-offs.
+- **My teams** — every followed club with its crest: live games first, then the next tip-offs. A
+  game to come reads `vs Olympiacos · Fri 30 Oct, 20:00`; open a row for its next opponent, last
+  result and record.
 
 ## Refresh pace
 

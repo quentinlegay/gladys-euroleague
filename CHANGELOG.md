@@ -17,7 +17,9 @@ All notable changes to this integration are documented here. The format follows
   live, every 15 min otherwise, woken at the tip-off reminder and at the tip-off.
 - Scene triggers: game starting soon, game started, lead changed, game ended (win or loss).
 - Scene action "Get the game of a team", with the score, the result, the record and the next game.
-- Dashboard widgets "Team game" and "My teams", with the club crests.
+- Dashboard widgets "Team game" and "My teams", with the club crests. In "My teams", a game to
+  come names the opponent first, and each row's detail panel gives the next opponent, the last
+  result and the record.
 - Configuration buttons "Test the teams" and "Find a team".
 
 [Unreleased]: https://github.com/quentinlegay/gladys-euroleague/compare/v1.0.1...HEAD

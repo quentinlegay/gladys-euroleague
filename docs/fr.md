@@ -82,7 +82,8 @@ L'action **Lire le match d'une équipe** donne aux actions suivantes l'état du 
 - **Match d'une équipe** — un club : score en direct, chrono, coup d'envoi, adversaire, dernier
   résultat, prochain match, bilan.
 - **Mes équipes** — tous les clubs suivis avec leur logo : les matchs en direct d'abord, puis les
-  prochains coups d'envoi.
+  prochains coups d'envoi. Un match à venir s'affiche `contre Olympiacos · ven. 30 oct., 20:00` ;
+  ouvrez une ligne pour voir le prochain adversaire, le dernier résultat et le bilan.
 
 ## Rythme d'actualisation
 
