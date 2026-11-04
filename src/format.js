@@ -114,15 +114,20 @@ export function formatStatus(match, { language, timezone }) {
   return `${w.next} · ${formatKickoff(match.kickoff, language, timezone)} · ${formatOpponent(match, language)}`;
 }
 
-/** The "next game" line: kickoff and opponent, or "No game scheduled". */
-export function formatNext(match, { language, timezone }) {
+/**
+ * The "next game" line: kickoff and opponent, or "No game scheduled".
+ * `opponentFirst` puts the opponent ahead ("vs Olympiacos · Fri 30 Oct, 20:00"),
+ * for the places where the end of a long line may be cut.
+ */
+export function formatNext(match, { language, timezone }, { opponentFirst = false } = {}) {
   if (!match) {
     return words(language).noGame;
   }
   const when = match.postponed
     ? words(language).postponed
     : formatKickoff(match.kickoff, language, timezone);
-  return `${when} · ${formatOpponent(match, language)}`;
+  const opponent = formatOpponent(match, language);
+  return opponentFirst ? `${opponent} · ${when}` : `${when} · ${opponent}`;
 }
 
 /** The "last result" line: "Win · Panathinaikos 85 – 78 Real Madrid". */

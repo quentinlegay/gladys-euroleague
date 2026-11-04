@@ -87,6 +87,22 @@ test('my_teams lists the live game first, with crests and badges', async () => {
       ['Real Madrid', 'NEXT', 'crest-e-mad'],
     ],
   );
+  // A game to come names the opponent first, a narrow card cuts the end.
+  assert.deepEqual(items[1].subtitle, {
+    en: 'vs ASVEL · Wed 28 Oct, 20:45',
+    fr: 'contre ASVEL · mer. 28 oct., 20:45',
+  });
+  assert.equal(items[1].date, '2026-10-28T19:45:00.000Z');
+  // The detail panel names the next opponent even during a live game.
+  assert.equal(
+    items[0].description.fr,
+    [
+      'En direct · QT3 05:23 · Panathinaikos 61 – 58 Partizan',
+      'Prochain match : à Olympiacos · ven. 30 oct., 20:00',
+      'Dernier résultat : Défaite · Panathinaikos 77 – 81 ASVEL',
+      'Saison : 1 V – 1 D',
+    ].join('\n'),
+  );
 
   const none = await setup({ teams: '' });
   assert.deepEqual(

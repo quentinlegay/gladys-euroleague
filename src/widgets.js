@@ -234,6 +234,53 @@ function teamMatchContent(gladys, tracked, config) {
   };
 }
 
+// The subtitle of a `my_teams` row. A game to come starts with the opponent:
+// the badge already says NEXT, and a narrow card cuts the end of the line.
+function listSubtitle(match, settings) {
+  if (match?.state === 'pre') {
+    return formatNext(match, settings, { opponentFirst: true });
+  }
+  return formatStatus(match, settings);
+}
+
+// The detail panel of a `my_teams` row: the next game (with its opponent)
+// and the last result even while the row shows another game, then the record.
+function listDescription(tracked, settings) {
+  const { match, next, last, record } = tracked;
+  const { language } = settings;
+  const labels = LIST_LABELS[language] ?? LIST_LABELS.en;
+  const lines = [formatStatus(match ?? null, settings)];
+  if (next && next.id !== match?.id) {
+    lines.push(
+      `${labels.next}${labels.colon}${formatNext(next, settings, { opponentFirst: true })}`,
+    );
+  }
+  if (last && last.id !== match?.id) {
+    lines.push(`${labels.last}${labels.colon}${formatLast(last, language)}`);
+  }
+  if (record) {
+    lines.push(`${labels.record}${labels.colon}${labels.wl(record)}`);
+  }
+  return lines.join('\n');
+}
+
+const LIST_LABELS = {
+  en: {
+    next: 'Next game',
+    last: 'Last result',
+    record: 'Season',
+    colon: ': ',
+    wl: (r) => `${r.wins} W – ${r.losses} L`,
+  },
+  fr: {
+    next: 'Prochain match',
+    last: 'Dernier résultat',
+    record: 'Saison',
+    colon: ' : ',
+    wl: (r) => `${r.wins} V – ${r.losses} D`,
+  },
+};
+
 function myTeamsContent(tracker, config) {
   const teams = tracker.list().filter((t) => t.info);
   if (teams.length === 0) {
@@ -270,10 +317,14 @@ function myTeamsContent(tracker, config) {
           const item = {
             title: clip(t.info.name, 60),
             subtitle: both(
-              (language) => formatStatus(t.match ?? null, { ...config, language }),
+              (language) => listSubtitle(t.match ?? null, { ...config, language }),
               60,
             ),
+            description: both((language) => listDescription(t, { ...config, language }), 2000),
           };
+          if (t.match?.state === 'pre' && !t.match.postponed) {
+            item.date = t.match.kickoff;
+          }
           if (t.info.crest) {
             item.image = crestKey(t);
           }
