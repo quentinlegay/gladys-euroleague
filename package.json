@@ -1,6 +1,6 @@
 {
   "name": "gladys-euroleague",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
   "description": "Gladys Assistant external integration that follows your EuroLeague and EuroCup basketball teams: live scores, next game, scene triggers.",
   "type": "module",
